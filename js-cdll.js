@@ -42,14 +42,13 @@
             return this;
         };
 
-        // adds (appends) an object to the end of the CDLL
-        // takes an item or an array of items
+        // appends an object to the end of the CDLL
         this.add = function (data) {
             addOne(this, data);
             return this;
         };
 
-        // adds (appends) an array of objects to the end of the CDLL
+        // appends an array of objects to the end of the CDLL
         this.addArray = function (data) {
             var self = this;
             if (Array.isArray(data)) {
