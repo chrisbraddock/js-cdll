@@ -20,7 +20,7 @@ CDLL provides the following methods:
 * **addArray(Array)** - add an array of items to the CDLL
 * **insertAfter(node, item)** - insert an item after another item in the CDLL
 * **remove(node)** - remove an item from the CDLL
-* **rotate(+/-Integer)** - rotate the CDLL (like a corousel)
+* **rotate(+/-Integer)** - rotate the CDLL (like a carousel)
 * **setCurrent(node)** - set the current item in the CDLL
 * **toArray()** - return the items of the CDLL in an array
 * **first()** - get the first item in the CDLL
