@@ -88,7 +88,6 @@ Fork. Write one or more tests and maybe some code. Submit a pull request.
 
 ### TODO:
 
-* bower.js registration
 * checkout https://github.com/chenglou/data-structures/wiki/LinkedList for comparison
 * html demo page
 * more tests
@@ -96,3 +95,4 @@ Fork. Write one or more tests and maybe some code. Submit a pull request.
 * example on jsbin
 * make work as a node module
 * destroy() method
+* ~~bower.js registration~~
