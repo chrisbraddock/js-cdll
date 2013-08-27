@@ -1,0 +1,17 @@
+{
+  "name": "JS CDLL",
+  "version": "0.1.0",
+  "authors": [
+    "Chris Braddock <braddock.chris@gmail.com>"
+  ],
+  "description": "A JavaScript implementation of the Circular Doubly-Linked List data structure",
+  "main": "js-cdll.js",
+  "keywords": [
+    "cdll",
+    "carousel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "test"
+  ]
+}
