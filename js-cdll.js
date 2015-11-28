@@ -1,16 +1,16 @@
 (function (global, undefined) {
 
-    // a circular doubly-linked list JavaScript implementation
-    //
-    // http://en.wikipedia.org/wiki/Doubly_linked_list
-    //
-    // influenced by:
-    //     http://blog.jcoglan.com/2007/07/23/writing-a-linked-list-in-javascript/ and
-    //     http://www.nczonline.net/blog/2009/04/21/computer-science-in-javascript-doubly-linked-lists/
-    //     and Brophdawg (https://github.com/brophdawg11) for the object structuring pattern
-    //
-    // license: The MIT License (MIT)
-    //  author: Chris Braddock (braddock.chris@gmail.com)
+    // var standardTypes = [1, 2, 3, <any>], {}, function() {}, 123, 'string', new Date();
+    // ctor CDLL(<standardTypes>); => CDLL.seed(<standardTypes>);
+    // var cdll = CDLL(<standardTypes>);
+    // cdll.first => arr[0];
+    // cdll.rotate(positive or negative integer);
+    // cdll.moveTo(element object === or element index);
+    // cdll.first.next = cdll.rotate(-1).first => arr[1];
+    // cdll.add(<standardTypes>); // returns object - necessary?
+    // cdll.addBefore(element object === or element index, <standardTypes>); => returns added object - necessary?
+    // cdll.remove(element object === or element index); => return removed object
+    // cdll.export(startElement, endElement, format); // defaults to 0, cdll.length, and Array
 
     // Constructor
     function CDLL(datum) {
